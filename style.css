@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #23272f;
+  color: #f3f3f3;
+}
+
+main {
+  max-width: 950px;
+  margin: 2rem auto;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  background: #2d323c;
+  padding: 1.5rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+label {
+  font-weight: bold;
+}
+
+input, button {
+  padding: 0.7rem;
+  font-size: 1.08rem;
+  border-radius: 8px;
+}
+
+.submit-btn {
+  background: #222e3a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.2rem;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #1a222b;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.card-person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #23272f;
+  padding: 1.3rem;
+  margin-bottom: 1.3rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.card-person img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-person:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 24px 48px rgba(34,46,58,0.18);
+}
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #3a4a5a;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #23272f;
+  margin-top: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 1.02rem;
+}
+
+th {
+  background: #222e3a;
+  color: #fff;
+}
+
+.remove-btn{
+  background: #a93226;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem 1.1rem;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.remove-btn:hover{
+  background: #922b21;
+  box-shadow: 0 2px 8px rgba(169,50,38,0.18);
+  transform: translateY(-2px);
+}
+
+.main-title, h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #a3e635;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 16px rgba(163,230,53,0.08);
+}
